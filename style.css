@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(194, 249, 152);
+}
+
+.heading {
+    padding-top: 3vw;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1%;
+    background-color: rgb(194, 249, 152);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    background-color: rgb(194, 249, 152);
+}
+
+.panel {
+    overflow: hidden;
+    width: 70%;
+    height: 70vh;
+    background-color: #fff;
+    border-radius: 1vw;
+}
+
+.ptop {
+    padding: 0 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    background-color: rgb(156, 221, 144);
+}
+
+.elem {
+    margin: .5vw;
+    display: flex;
+    align-items: center;
+    gap: .5vw;
+    font-size: 1.3vw;
+}
+
+.box {
+    padding: .2vw .5vw;
+    font-weight: 700;
+    background-color: #fff;
+    margin: .2vw;
+    color: rgba(45, 139, 5, 0.934);
+    border-radius: .2vw;
+}
+
+.pbtm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4vw;
+    flex-wrap: wrap;
+    margin: 1vw 2vw;
+    width: 94%;
+    height: 86%;
+}
+
+.bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .8vw;
+    font-size: 1.3vw;
+    margin: .2vw;
+    font-weight: bold;
+    width: 2vw;
+    height: 2.2vw;
+    background-color: rgb(87, 200, 38);
+    border-radius: 50%;
+}
+
+.bubble:hover {
+    cursor: pointer;
+    background-color: rgb(26, 159, 2);
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1068px) {
+    .heading {
+        padding-top: 10vw;
+    }
+    .main{
+        height: 70%;
+    }
+
+    .panel {
+        /* width: 56%; */
+        height: 57vh;
+    }
+
+    .ptop {
+        padding: 1vw 15vw;
+        height: 10%;
+    }
+
+    .elem {
+        font-size: 1.5vw;
+    }
+
+    .box {
+        padding: .5vw .8vw;
+    }
+
+    .pbtm {
+        gap: 2vw;
+    }
+
+    .bubble {
+        padding: 1vw;
+        font-size: 1.5vw;
+        width: 3vw;
+        height: 3vw;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .heading {
+        padding-top: 5vw;
+    }
+    .main{
+        height: 60%;
+    }
+    .panel {
+        width: 83%;
+        height: 53vh;
+    }
+
+
+
+    .elem {
+        font-size: 2vw;
+        margin: 1vw 0;
+    }
+
+    .box {
+        padding: 1vw 1.3vw;
+    }
+
+    .pbtm {
+        gap: 3vw;
+    }
+
+    .bubble {
+        padding: 1.5vw;
+        font-size: 2vw;
+        width: 4vw;
+        height: 4vw;
+    }
+}
+
+@media (max-width: 500px) {
+
+
+    .heading {
+        padding-top: 20vw;
+    }
+    .main{
+        height: 50%;
+    }
+    .panel {
+        width: 90%;
+        height: 40vh;
+    }
+
+    .ptop {
+        height: 10vw;
+
+    }
+
+    .elem {
+        font-size: 2.5vw;
+
+        /* width: 9vw; */
+    }
+
+
+    .box {
+        padding: 1.5vw 1.7vw;
+    }
+
+    .pbtm {
+        gap: 4vw;
+    }
+
+    .bubble {
+        padding: 2vw;
+        font-size: 2.5vw;
+        width: 5vw;
+        height: 5vw;
+    }
+}
